@@ -1,6 +1,6 @@
 !This file is part of SuperNu.  SuperNu is released under the terms of the GNU GPLv3, see COPYING.
 !Copyright (c) 2013-2019 Ryan T. Wollaeger and Daniel R. van Rossum.  All rights reserved.
-program supernu
+subroutine supernu
 
   use randommod
   use sourcemod
@@ -294,5 +294,5 @@ program supernu
   call dealloc_all
   call mpi_finalize(ierr) !MPI
 
-end program supernu
+end subroutine supernu
 ! vim: fdm=marker
